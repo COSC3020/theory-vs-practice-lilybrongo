@@ -50,4 +50,11 @@ Add your answers to this markdown file.
 
       1. Timing of inserting elements, along with creating a balanced tree may not have been accounted for
       2. The implementation of the code could also lead to this timing difference. If other things have been added into the program, then this could easily change the run time which would not only be accounting for the algorithm itself. It would have to account for the other operations and added information, along with the element increase. 
-      3. Since asymptotic comaprisons are dependent on their environment, with this many elements there may not be proper allocation of memory, or due to the size it may create a greater inefficiency to the expected timing. 
+      3. Since asymptotic comaprisons are dependent on their environment, with this many elements there may not be proper allocation of memory, or due to the size it may create a greater inefficiency to the expected timing.
+
+
+
+  I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.
