@@ -47,9 +47,8 @@ Add your answers to this markdown file.
 
     This could be the case because 
 
-      1. If the tree is not balanced then this could lead to a longer run time. If this is the case then it would lead to worst case scenerio instead of returning the estimated best case asymptotic analysis 
-      2. The implementation of the code could also lead to this timing difference. If other things have been added into the program, then this could easily change the run time which would not only be accounting for the algorithm itself. It would have to account for the other operations and added information, along with the element increase.
-        - An example of this could be a specific check or test within a program that were not accounted for within the asymptotic analysis. Also if the algorithm was implemented incorreclty this would also account for a slower time.
+      1. The program could have been run at the same time as other programs. This could account for the slower time. If there is multiple programs running at once and there is an unablanced tree in the designated algorithm then this could account for the drastic change in time. This also connects to the hardware piece of this explination. 
+      2. Since the first case was much smaller than the second case, the timing difference could be due to the difference of comparing integers to comapring strign comparisons. The implementations and what is being comapred can change the outcomes of the runtime. The change would be from a constant comparison to a recursive call.
       3. Since asymptotic comaprisons are dependent on their environment, with this many elements there may not be proper allocation of memory, or due to the size it may create a greater inefficiency to the expected timing.
       - An example of this would be hardware that can run faster and has a greater memory capacity, with these qualities it will be able to run the algorithm faster.
 
