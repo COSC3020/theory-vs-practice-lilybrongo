@@ -47,10 +47,10 @@ Add your answers to this markdown file.
 
     This could be the case because 
 
-      1. The program could have been run at the same time as other programs. This could account for the slower time. If there is multiple programs running at once and there is an unablanced tree in the designated algorithm then this could account for the drastic change in time. This also connects to the hardware piece of this explination. 
+      1. The program could have been run at the same time as other programs. If other programs are running in the background, this could cause the device itself to run slower cause a difference in runtime for the two cases. The devices ability to efficiently run an algorithm may be very different from the expected time because of the other applications that re running.  
       2. Since the first case was much smaller than the second case, the timing difference could be due to the difference of comparing integers to comapring strign comparisons. The implementations and what is being comapred can change the outcomes of the runtime. The change would be from a constant comparison to a recursive call.
-      3. Since asymptotic comaprisons are dependent on their environment, with this many elements there may not be proper allocation of memory, or due to the size it may create a greater inefficiency to the expected timing.
-      - An example of this would be hardware that can run faster and has a greater memory capacity, with these qualities it will be able to run the algorithm faster.
+      3. Since asymptotic comaprisons are dependent on their environment, with this many elements there may not be enough  memory space to efficiently run the algorithm, or due to the size it may create a greater inefficiency to the expected timing.
+      - An example of this would be hardware that can run faster and has a greater memory capacity, with these qualities it will be able to run the algorithm faster. Running the algorthm on a simple pc or running an algorithm on the schools rasberry PIs
 
 
 
